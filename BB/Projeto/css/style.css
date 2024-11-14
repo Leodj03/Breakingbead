@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#imgMenu{
+    background-image: url(/imagens/menu_breaking-bad.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+#menu{
+    width: 100%;
+    height: 100px;
+}
+
+#menu ul{
+    width: 50%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu ul li{
+    width: 20%;
+    height: inherit;
+    list-style: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#menu ul li:hover{
+    cursor: pointer;
+    background-color: #fcd216cc;
+    transition: 1s;
+    color: rgb(0, 0, 0);
+}
+
+.section-titulo{
+    width: 100%;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 30px;
+    padding-left: 30px;
+    letter-spacing: 0.5em;
+}
+
+.section-sinopse{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#imgFundo{
+    width: 100%;
+    height: 900px;
+    background-image: url(/imagens/0f60adab26078bb90beb0d0c9c5dd218.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#camada-transparente, #rodape{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(238, 255, 0, 0.7);
+}
+
+#Audiencia{
+    width: 100%;
+    height: 100px;
+    background-color: #fcd216;
+}
+
+.section-audiencia{
+    width: 50%;
+    height: 400px;
+    padding: 45px;
+    background-color: #fcd216;
+    float: left;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+
